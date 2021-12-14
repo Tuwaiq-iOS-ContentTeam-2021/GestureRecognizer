@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GestureRecognizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="eWg-WW-BPy">
+                                <rect key="frame" x="200" y="169" width="194" height="131"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="2fd-Qs-cZO"/>
+                                    <constraint firstAttribute="width" constant="194" id="s1F-h7-lIQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b4Coffee" translatesAutoresizingMaskIntoConstraints="NO" id="QOh-LZ-Zkq">
+                                <rect key="frame" x="20" y="598" width="174" height="139"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="139" id="V03-lI-dF8"/>
+                                    <constraint firstAttribute="width" constant="174" id="y4s-uU-6Bn"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QOh-LZ-Zkq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="554" id="05n-JM-IE1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QOh-LZ-Zkq" secondAttribute="trailing" constant="220" id="DAM-HG-cbB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eWg-WW-BPy" secondAttribute="bottom" constant="561" id="Kfw-ic-70J"/>
+                            <constraint firstItem="QOh-LZ-Zkq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SP3-Aj-ToI"/>
+                            <constraint firstItem="eWg-WW-BPy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="200" id="kAB-5M-P1O"/>
+                            <constraint firstItem="eWg-WW-BPy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="126" id="nXm-Mq-D4R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QOh-LZ-Zkq" secondAttribute="bottom" constant="125" id="sSU-rJ-lLX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eWg-WW-BPy" secondAttribute="trailing" constant="20" id="u6b-BK-gqB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="coffeeShop" destination="eWg-WW-BPy" id="jDg-EK-gHu"/>
+                        <outlet property="imageView" destination="QOh-LZ-Zkq" id="hfe-dw-cnD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="b4Coffee" width="417" height="546"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
