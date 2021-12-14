@@ -22,17 +22,15 @@ class ViewController: UIViewController {
         let rotate = UIRotationGestureRecognizer(target: self, action:     #selector(rotationGesture(_:)))
         imageRotation.addGestureRecognizer(rotate)
         
-//        let x = UIPanGestureRecognizer(target: self, action: #selector(alert))
-//        doTheWork.addGestureRecognizer(x)
-        //        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapped))
-        //        myLabel.addGestureRecognizer(gestureRecognizer)
+//        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapped))
+//        myLabel.addGestureRecognizer(gestureRecognizer)
     }
     
-    //    @objc func tapped() {
-    //        print("Label Tapped")
-    //        myLabel.textColor = .blue
-    //        view.backgroundColor = .orange
-    //    }
+//    @objc func tapped() {
+//        print("Label Tapped")
+//        myLabel.textColor = .blue
+//        view.backgroundColor = .orange
+//    }
     
     @IBAction func gestureRecognizer(_ sender: UITapGestureRecognizer) {
         
@@ -91,16 +89,26 @@ class ViewController: UIViewController {
     
     
     @IBAction func panGesture(_ sender: UIPanGestureRecognizer) {
-        
-        let trans = sender.translation(in: view)
+        var trans = sender.translation(in: view)
         sender.view?.center = CGPoint(
             x: (sender.view?.center.x)! + trans.x,
             y: (sender.view?.center.y)! + trans.y)
         sender.setTranslation(CGPoint.zero, in: view)
-        let x = UIPanGestureRecognizer(target: self, action: #selector(alert))
-        doTheWork.addGestureRecognizer(x)
+        // 1. You can move it anywhere
+            let x = UIPanGestureRecognizer(target: self, action: #selector(panAction))
+            doTheWork.addGestureRecognizer(x)
         
-        
+        // 2. After letting the image go and try to grap it it will give you alert. Wont be able to move it again in another place ;p
+//        if doTheWork.frame == imageRotation.frame {
+//            panAction()
+//        }
+    }
+    
+    @objc func panAction(){
+        let alert = UIAlertController(title: "Alert", message: "You won't be able to move it ever AGAIN!!", preferredStyle: .alert)
+        let action = UIAlertAction(title: "whatever...", style: .default, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
     }
     
     @objc func alert() {
