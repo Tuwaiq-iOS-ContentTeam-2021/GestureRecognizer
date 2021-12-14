@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rAU-73-CBh">
+                                <rect key="frame" x="98" y="64" width="218" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="218" id="gGa-Ik-6QH"/>
+                                    <constraint firstAttribute="width" constant="218" id="lKS-ta-C9c"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vDv-eA-uGm">
+                                <rect key="frame" x="157" y="722" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="2Wl-Sj-yNd"/>
+                                    <constraint firstAttribute="height" constant="100" id="vez-cv-Aut"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Rww-qN-g41" appends="YES" id="lCR-9O-gmJ"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opw-cG-FjO">
+                                <rect key="frame" x="178" y="393.5" width="58" height="119.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="100"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Opw-cG-FjO" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="BcF-J8-Fxz"/>
+                            <constraint firstItem="rAU-73-CBh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="S1N-Vf-hx5"/>
+                            <constraint firstItem="Opw-cG-FjO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="U0M-je-L2Y"/>
+                            <constraint firstItem="rAU-73-CBh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZXi-SA-orQ"/>
+                            <constraint firstItem="vDv-eA-uGm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cLa-td-Crn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vDv-eA-uGm" secondAttribute="bottom" constant="40" id="ePq-EL-THd"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Rww-qN-g41" appends="YES" id="aVf-UM-zus"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="ballImageView" destination="vDv-eA-uGm" id="09I-29-Kx7"/>
+                        <outlet property="basketImageView" destination="rAU-73-CBh" id="88K-x0-zET"/>
+                        <outlet property="goalsL" destination="Opw-cG-FjO" id="c77-oU-FhL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Rww-qN-g41">
+                    <connections>
+                        <action selector="panGesture:" destination="BYZ-38-t0r" id="pH1-bu-cvx"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-26.086956521739133" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
