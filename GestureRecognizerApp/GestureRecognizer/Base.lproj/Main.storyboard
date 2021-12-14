@@ -15,38 +15,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-12-14 at 11.43.13 AM" translatesAutoresizingMaskIntoConstraints="NO" id="J9E-G5-CcN">
-                                <rect key="frame" x="250" y="236" width="125" height="389"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="J9E-G5-CcN">
+                                <rect key="frame" x="277.5" y="236" width="125" height="389"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="2fE-pV-Si7"/>
                                     <constraint firstAttribute="height" constant="389" id="q9A-e7-pSW"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a4d314aa16a6b8b58ffdc30732dfe9db(2)" translatesAutoresizingMaskIntoConstraints="NO" id="0YF-t8-nkc">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="teddyBear" translatesAutoresizingMaskIntoConstraints="NO" id="0YF-t8-nkc">
                                 <rect key="frame" x="137" y="618" width="115" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="eyd-Tt-sy3" appends="YES" id="JGe-Yx-bsz"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="gnG-Wv-m6Z">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dolphin" translatesAutoresizingMaskIntoConstraints="NO" id="gnG-Wv-m6Z">
                                 <rect key="frame" x="53" y="592" width="138" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="64d075ed38afd0e998218e8597852363" translatesAutoresizingMaskIntoConstraints="NO" id="kwc-d1-UjZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="kwc-d1-UjZ">
                                 <rect key="frame" x="27" y="666" width="138" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-12-14 at 10.36.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="pFk-2h-94e">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monkey" translatesAutoresizingMaskIntoConstraints="NO" id="pFk-2h-94e">
                                 <rect key="frame" x="122" y="689" width="105" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="22 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="zNi-8c-EfI">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dinosaur" translatesAutoresizingMaskIntoConstraints="NO" id="zNi-8c-EfI">
                                 <rect key="frame" x="158" y="628" width="172" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Were is my teddy bear?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1v-GB-xe9">
-                                <rect key="frame" x="39" y="160" width="308.5" height="40"/>
+                                <rect key="frame" x="39" y="160" width="336" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="335" id="5s4-eo-2jB"/>
                                     <constraint firstAttribute="height" constant="40" id="DV2-SV-t6z"/>
@@ -83,11 +83,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="11" width="420" height="420"/>
-        <image name="22 (1)" width="564" height="564"/>
-        <image name="64d075ed38afd0e998218e8597852363" width="420" height="420"/>
-        <image name="Screen Shot 2021-12-14 at 10.36.19 PM" width="758" height="682"/>
-        <image name="Screen Shot 2021-12-14 at 11.43.13 AM" width="214" height="768"/>
-        <image name="a4d314aa16a6b8b58ffdc30732dfe9db(2)" width="294" height="323"/>
+        <image name="dinosaur" width="564" height="564"/>
+        <image name="dog" width="420" height="420"/>
+        <image name="dolphin" width="420" height="420"/>
+        <image name="girl" width="214" height="768"/>
+        <image name="monkey" width="758" height="682"/>
+        <image name="teddyBear" width="294" height="323"/>
     </resources>
 </document>
