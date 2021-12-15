@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GestureRecgizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backk" translatesAutoresizingMaskIntoConstraints="NO" id="lst-C8-0JN">
+                                <rect key="frame" x="0.0" y="117" width="414" height="818"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lily" translatesAutoresizingMaskIntoConstraints="NO" id="egf-OA-ZyA">
+                                <rect key="frame" x="98" y="428" width="377" height="507"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wO4-uL-xkt">
+                                <rect key="frame" x="191" y="715" width="53" height="56"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow-flower" translatesAutoresizingMaskIntoConstraints="NO" id="2Yf-tO-x9J">
+                                <rect key="frame" x="107" y="797" width="73" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red-flower" translatesAutoresizingMaskIntoConstraints="NO" id="77Z-AI-rey">
+                                <rect key="frame" x="50" y="797" width="73" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="a8i-I9-j8c" appends="YES" id="Hxy-Nh-b4N"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I need help putting the red rose in the basket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VM9-TX-hiJ">
+                                <rect key="frame" x="28" y="487" width="340" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.36470589040000001" green="0.67058825489999996" blue="0.81176471709999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="egf-OA-ZyA" secondAttribute="trailing" constant="-61" id="2hr-41-2sZ"/>
+                            <constraint firstItem="wO4-uL-xkt" firstAttribute="top" secondItem="VM9-TX-hiJ" secondAttribute="bottom" constant="207" id="9Jp-Mb-XlT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wO4-uL-xkt" secondAttribute="bottom" constant="63" id="9ct-xo-47h"/>
+                            <constraint firstItem="egf-OA-ZyA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="Er4-E4-kSI"/>
+                            <constraint firstItem="lst-C8-0JN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="73" id="GS0-SE-ckb"/>
+                            <constraint firstAttribute="bottom" secondItem="egf-OA-ZyA" secondAttribute="bottom" constant="-39" id="RJz-Tb-bTS"/>
+                            <constraint firstItem="lst-C8-0JN" firstAttribute="bottom" secondItem="egf-OA-ZyA" secondAttribute="bottom" id="SEJ-eV-Wxf"/>
+                            <constraint firstItem="VM9-TX-hiJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="ST0-oo-Lu8"/>
+                            <constraint firstItem="lst-C8-0JN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TfP-uf-iaf"/>
+                            <constraint firstItem="VM9-TX-hiJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="443" id="fiL-a1-fzr"/>
+                            <constraint firstItem="wO4-uL-xkt" firstAttribute="centerX" secondItem="lst-C8-0JN" secondAttribute="centerX" id="gkl-00-FFr"/>
+                            <constraint firstItem="egf-OA-ZyA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="384" id="hYu-6D-Cc4"/>
+                            <constraint firstItem="wO4-uL-xkt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="hsf-bO-Awn"/>
+                            <constraint firstItem="wO4-uL-xkt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ung-4l-VAC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VM9-TX-hiJ" secondAttribute="trailing" constant="46" id="xeH-FN-2r3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="baskitimage" destination="wO4-uL-xkt" id="ob5-3r-CDW"/>
+                        <outlet property="lableli" destination="VM9-TX-hiJ" id="JYn-K1-di4"/>
+                        <outlet property="redrose" destination="77Z-AI-rey" id="nYF-Kk-FkN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="a8i-I9-j8c">
+                    <connections>
+                        <action selector="panActt:" destination="BYZ-38-t0r" id="kbu-rQ-XsD"/>
+                        <outlet property="delegate" destination="77Z-AI-rey" id="7uw-qg-AyJ"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backk" width="563" height="1000"/>
+        <image name="lily" width="500" height="500"/>
+        <image name="red-flower" width="816" height="1056"/>
+        <image name="yellow-flower" width="816" height="1056"/>
+    </resources>
+</document>
