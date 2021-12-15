@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  gesture
+//  UIGesture
 //
 //  Created by Sahab Alharbi on 10/05/1443 AH.
 //

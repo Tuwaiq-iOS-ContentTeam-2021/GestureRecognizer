@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nTN-TW-Ak1">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="PcP-Kw-La9">
+            <objects>
+                <viewController id="nTN-TW-Ak1" customClass="ViewController" customModule="UIGesture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OoR-VW-2Cy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trees" translatesAutoresizingMaskIntoConstraints="NO" id="jZh-Mm-n3j">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="KM5-3g-c1h"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="bird" translatesAutoresizingMaskIntoConstraints="NO" id="IOe-Ff-CcR">
+                                <rect key="frame" x="174" y="628" width="66" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="mq4-Ih-ndO"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oLC-Yu-nP5" appends="YES" id="zbF-J1-wsI"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RWl-yS-Z2j"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IOe-Ff-CcR" firstAttribute="leading" secondItem="RWl-yS-Z2j" secondAttribute="leading" constant="174" id="EPK-XG-OJr"/>
+                            <constraint firstItem="jZh-Mm-n3j" firstAttribute="centerX" secondItem="OoR-VW-2Cy" secondAttribute="centerX" id="NcD-Vs-UvA"/>
+                            <constraint firstItem="jZh-Mm-n3j" firstAttribute="centerX" secondItem="IOe-Ff-CcR" secondAttribute="centerX" id="PAf-Dd-TlN"/>
+                            <constraint firstItem="jZh-Mm-n3j" firstAttribute="leading" secondItem="RWl-yS-Z2j" secondAttribute="leading" id="Rst-q0-rBM"/>
+                            <constraint firstItem="jZh-Mm-n3j" firstAttribute="top" secondItem="OoR-VW-2Cy" secondAttribute="topMargin" constant="-44" id="WSN-EH-AMb"/>
+                            <constraint firstItem="RWl-yS-Z2j" firstAttribute="bottom" secondItem="IOe-Ff-CcR" secondAttribute="bottom" constant="159" id="tKB-kh-QDD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bird" destination="IOe-Ff-CcR" id="xRC-XR-jKC"/>
+                        <outlet property="forest" destination="jZh-Mm-n3j" id="UTt-eS-OV5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="01Q-oA-JEm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="oLC-Yu-nP5"/>
+            </objects>
+            <point key="canvasLocation" x="934.78260869565224" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bird" width="199" height="253"/>
+        <image name="trees" width="403" height="125"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

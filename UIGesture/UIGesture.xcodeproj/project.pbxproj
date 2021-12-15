@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C67D25472769137400381879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67D25462769137400381879 /* AppDelegate.swift */; };
-		C67D25492769137400381879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67D25482769137400381879 /* SceneDelegate.swift */; };
-		C67D254B2769137400381879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67D254A2769137400381879 /* ViewController.swift */; };
-		C67D254E2769137400381879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67D254C2769137400381879 /* Main.storyboard */; };
-		C67D25502769137600381879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67D254F2769137600381879 /* Assets.xcassets */; };
-		C67D25532769137600381879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67D25512769137600381879 /* LaunchScreen.storyboard */; };
+		C606714D2768719400DD440B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606714C2768719400DD440B /* AppDelegate.swift */; };
+		C606714F2768719400DD440B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606714E2768719400DD440B /* SceneDelegate.swift */; };
+		C60671542768719400DD440B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60671522768719400DD440B /* Main.storyboard */; };
+		C60671562768719600DD440B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60671552768719600DD440B /* Assets.xcassets */; };
+		C60671592768719600DD440B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60671572768719600DD440B /* LaunchScreen.storyboard */; };
+		C60671612768F58700DD440B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60671602768F58700DD440B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C67D25432769137400381879 /* gesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C67D25462769137400381879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C67D25482769137400381879 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C67D254A2769137400381879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C67D254D2769137400381879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C67D254F2769137600381879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C67D25522769137600381879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C67D25542769137600381879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60671492768719400DD440B /* UIGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C606714C2768719400DD440B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C606714E2768719400DD440B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C60671532768719400DD440B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C60671552768719600DD440B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C60671582768719600DD440B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C606715A2768719600DD440B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60671602768F58700DD440B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C67D25402769137400381879 /* Frameworks */ = {
+		C60671462768719400DD440B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C67D253A2769137400381879 = {
+		C60671402768719400DD440B = {
 			isa = PBXGroup;
 			children = (
-				C67D25452769137400381879 /* gesture */,
-				C67D25442769137400381879 /* Products */,
+				C606714B2768719400DD440B /* UIGesture */,
+				C606714A2768719400DD440B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C67D25442769137400381879 /* Products */ = {
+		C606714A2768719400DD440B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C67D25432769137400381879 /* gesture.app */,
+				C60671492768719400DD440B /* UIGesture.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C67D25452769137400381879 /* gesture */ = {
+		C606714B2768719400DD440B /* UIGesture */ = {
 			isa = PBXGroup;
 			children = (
-				C67D25462769137400381879 /* AppDelegate.swift */,
-				C67D25482769137400381879 /* SceneDelegate.swift */,
-				C67D254A2769137400381879 /* ViewController.swift */,
-				C67D254C2769137400381879 /* Main.storyboard */,
-				C67D254F2769137600381879 /* Assets.xcassets */,
-				C67D25512769137600381879 /* LaunchScreen.storyboard */,
-				C67D25542769137600381879 /* Info.plist */,
+				C606714C2768719400DD440B /* AppDelegate.swift */,
+				C606714E2768719400DD440B /* SceneDelegate.swift */,
+				C60671602768F58700DD440B /* ViewController.swift */,
+				C60671522768719400DD440B /* Main.storyboard */,
+				C60671552768719600DD440B /* Assets.xcassets */,
+				C60671572768719600DD440B /* LaunchScreen.storyboard */,
+				C606715A2768719600DD440B /* Info.plist */,
 			);
-			path = gesture;
+			path = UIGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C67D25422769137400381879 /* gesture */ = {
+		C60671482768719400DD440B /* UIGesture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C67D25572769137600381879 /* Build configuration list for PBXNativeTarget "gesture" */;
+			buildConfigurationList = C606715D2768719600DD440B /* Build configuration list for PBXNativeTarget "UIGesture" */;
 			buildPhases = (
-				C67D253F2769137400381879 /* Sources */,
-				C67D25402769137400381879 /* Frameworks */,
-				C67D25412769137400381879 /* Resources */,
+				C60671452768719400DD440B /* Sources */,
+				C60671462768719400DD440B /* Frameworks */,
+				C60671472768719400DD440B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = gesture;
-			productName = gesture;
-			productReference = C67D25432769137400381879 /* gesture.app */;
+			name = UIGesture;
+			productName = UIGesture;
+			productReference = C60671492768719400DD440B /* UIGesture.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C67D253B2769137400381879 /* Project object */ = {
+		C60671412768719400DD440B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					C67D25422769137400381879 = {
+					C60671482768719400DD440B = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = C67D253E2769137400381879 /* Build configuration list for PBXProject "gesture" */;
+			buildConfigurationList = C60671442768719400DD440B /* Build configuration list for PBXProject "UIGesture" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = C67D253A2769137400381879;
-			productRefGroup = C67D25442769137400381879 /* Products */;
+			mainGroup = C60671402768719400DD440B;
+			productRefGroup = C606714A2768719400DD440B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C67D25422769137400381879 /* gesture */,
+				C60671482768719400DD440B /* UIGesture */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C67D25412769137400381879 /* Resources */ = {
+		C60671472768719400DD440B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C67D25532769137600381879 /* LaunchScreen.storyboard in Resources */,
-				C67D25502769137600381879 /* Assets.xcassets in Resources */,
-				C67D254E2769137400381879 /* Main.storyboard in Resources */,
+				C60671592768719600DD440B /* LaunchScreen.storyboard in Resources */,
+				C60671562768719600DD440B /* Assets.xcassets in Resources */,
+				C60671542768719400DD440B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C67D253F2769137400381879 /* Sources */ = {
+		C60671452768719400DD440B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C67D254B2769137400381879 /* ViewController.swift in Sources */,
-				C67D25472769137400381879 /* AppDelegate.swift in Sources */,
-				C67D25492769137400381879 /* SceneDelegate.swift in Sources */,
+				C60671612768F58700DD440B /* ViewController.swift in Sources */,
+				C606714D2768719400DD440B /* AppDelegate.swift in Sources */,
+				C606714F2768719400DD440B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C67D254C2769137400381879 /* Main.storyboard */ = {
+		C60671522768719400DD440B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C67D254D2769137400381879 /* Base */,
+				C60671532768719400DD440B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C67D25512769137600381879 /* LaunchScreen.storyboard */ = {
+		C60671572768719600DD440B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C67D25522769137600381879 /* Base */,
+				C60671582768719600DD440B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C67D25552769137600381879 /* Debug */ = {
+		C606715B2768719600DD440B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		C67D25562769137600381879 /* Release */ = {
+		C606715C2768719600DD440B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,7 +282,7 @@
 			};
 			name = Release;
 		};
-		C67D25582769137600381879 /* Debug */ = {
+		C606715E2768719600DD440B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YLZ5NYW24M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = gesture/Info.plist;
+				INFOPLIST_FILE = UIGesture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Users-sahabalharbi.gesture";
+				PRODUCT_BUNDLE_IDENTIFIER = "Users-sahabalharbi.UIGesture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		C67D25592769137600381879 /* Release */ = {
+		C606715F2768719600DD440B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YLZ5NYW24M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = gesture/Info.plist;
+				INFOPLIST_FILE = UIGesture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Users-sahabalharbi.gesture";
+				PRODUCT_BUNDLE_IDENTIFIER = "Users-sahabalharbi.UIGesture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C67D253E2769137400381879 /* Build configuration list for PBXProject "gesture" */ = {
+		C60671442768719400DD440B /* Build configuration list for PBXProject "UIGesture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C67D25552769137600381879 /* Debug */,
-				C67D25562769137600381879 /* Release */,
+				C606715B2768719600DD440B /* Debug */,
+				C606715C2768719600DD440B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C67D25572769137600381879 /* Build configuration list for PBXNativeTarget "gesture" */ = {
+		C606715D2768719600DD440B /* Build configuration list for PBXNativeTarget "UIGesture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C67D25582769137600381879 /* Debug */,
-				C67D25592769137600381879 /* Release */,
+				C606715E2768719600DD440B /* Debug */,
+				C606715F2768719600DD440B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C67D253B2769137400381879 /* Project object */;
+	rootObject = C60671412768719400DD440B /* Project object */;
 }
