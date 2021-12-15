@@ -16,16 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trash" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lLs-6g-1gd">
-                                <rect key="frame" x="87" y="345" width="240" height="206"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="folder.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7vF-3h-oRc">
-                                <rect key="frame" x="87" y="111" width="240" height="128"/>
+                                <rect key="frame" x="87" y="551" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="dNg-qo-kPG" appends="YES" id="xJP-ge-M7R"/>
                                 </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trash" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lLs-6g-1gd">
+                                <rect key="frame" x="20" y="69" width="240" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
